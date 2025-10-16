@@ -1,0 +1,525 @@
+[
+    {
+        "id": 1,
+        "name": "Tumtec 9C+ Cleaver",
+        "category": "Fiber Cleaver",
+        "brand": "Tumtec",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/0RD1zPj2/Image-Tumtec-9-C-Cleaver-Anti-fibre-broken-stable-and-reliable.jpg",
+        "description": "The Tumtec 9C+ Cleaver offers high precision cleaving using superhard aluminum alloy and a tungsten steel blade with auto-rotate function, designed for professional and efficient fiber optic work.",
+        "features": [
+            "Auto-rotate tungsten steel blade with 24 cleaving spots and 48,000 cleaves",
+            "Superhard aluminum alloy body with CNC precision processing",
+            "Typical cleave angle ≤ 0.5°, bare fiber diameter: 125μm",
+            "One-hand slide rail design for smooth, stable operation",
+            "Includes fiber collector and shockproof carrying case"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tumtec A8 Cleaver",
+        "category": "Fiber Cleaver",
+        "brand": "Tumtec",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/cSyVNCVM/image-Tumtec-A8-Cleaver-Anti-fibre-broken-stable-and-reliable.jpg",
+        "description": "The Tumtec A8 Cleaver is a compact, precision fiber cleaver made of aviation-grade aluminum alloy. It supports multiple fiber types and is built for long-lasting, one-hand high-accuracy cleaving in any environment.",
+        "features": [
+            "Constructed with aviation aluminum alloy for high strength and precision",
+            "Compact design for easy one-hand operation",
+            "Multi-functional 3-in-1 fixture for bare fiber, drop cable, and pigtail",
+            "48000 cleaves with average angle less than 0.5°",
+            "Anti-breakage technology ensures performance in cold conditions"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Trixon EPON OLT Transceiver",
+        "category": "OLT",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/kV4JG0D5/image-Trixon-EPON-OLT-Transceiver.jpg",
+        "description": "Small form factor pluggable module designed for IEEE 802.3ah 1000BASE-PX20+ single mode fiber communications, featuring a 1490nm DFB laser transmitter and compliant with international laser safety standards.",
+        "features": [
+            "Operating data rate up to 1.25 Gbps",
+            "1490nm DFB-LD transmitter and 1310nm burst-mode APD-TIA receiver",
+            "Distance up to 20km",
+            "Single 3.3V power supply with TTL logic interface",
+            "Digital burst RSSI function to monitor input optical power level",
+            "Single SC/UPC connector interface, hot pluggable",
+            "Compliant with MSA SFP Specification SFF-8472 and IEEE 802.3ah",
+            "Low EMI and excellent ESD protection"
+        ],
+        "applications": [
+            "FTTH",
+            "Gigabit Ethernet Passive Optical Networks"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Trixon GPON OLT Transceiver",
+        "category": "OLT",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/4ZYY1MG4/image-Trixon-GPON-OLT-Transceiver.jpg",
+        "description": "Small form factor pluggable module designed for ITU-T G.984 GPON serial optical data communications, featuring a 1490nm DFB laser transmitter and compliant with international laser safety standards.",
+        "features": [
+            "Single fiber bi-directional data links with asymmetric TX 2.488Gbps/RX 1.244Gbps",
+            "1490nm DFB-LD transmitter and 1310nm burst-mode APD-TIA receiver",
+            "Distance up to 20km",
+            "Single 3.3V power supply with TTL logic interface",
+            "Digital burst RSSI function to monitor input optical power level",
+            "Single SC/UPC connector interface, hot pluggable",
+            "Compliant with MSA SFP Specification SFF-8472 and ITU-T G.984",
+            "Low EMI and excellent ESD protection"
+        ],
+        "applications": [
+            "FTTH",
+            "Gigabit Passive Optical Networks"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Trixon 1.25G SFP 20km Transceiver LC 1310-1550nm",
+        "category": "SFP",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/HTFfThY5/Image-Trixon-1-25-G-SFP-20km-Transceiver-SC-1310-1550nm.jpg",
+        "description": "High-performance, cost-effective Gigabit Ethernet bidirectional SFP optical transceiver for 1.25 Gbps data rate supporting short to long reach links, compliant with GR-468-CORE standards.",
+        "features": [
+            "Operating data rate at 1.25 Gbps",
+            "Distance up to 20km",
+            "Single 3.3V power supply with TTL logic interface",
+            "Single LC connector interface, hot pluggable",
+            "Compliant with MSA SFP Specification",
+            "Compliant with Telcordia GR-253-CORE and IEEE 802.3",
+            "Digital Diagnostic Monitor Interface (DDMI)",
+            "Compatible with SFF-8472",
+            "Operating Case Temperature: Standard (-5℃ to +70℃), Industrial (-40℃ to +85℃)"
+        ],
+        "applications": [
+            "Gigabit Ethernet Switches and Routers",
+            "Fiber Channel Switch",
+            "Other Optical Link"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Trixon 1.25G SFP 40km Transceiver LC 1310-1550nm",
+        "category": "SFP",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/hRP1nm4X/image-Trixon-1-25-G-SFP-40km-Transceiver-SC-1310-1550nm.jpg",
+        "description": "High-performance, cost-effective Gigabit Ethernet bidirectional SFP optical transceiver for 1.25 Gbps data rate supporting short to long reach links, compliant with GR-468-CORE standards.",
+        "features": [
+            "Operating data rate at 1.25 Gbps",
+            "Distance up to 40km",
+            "Single 3.3V power supply with TTL logic interface",
+            "Single LC connector interface, hot pluggable",
+            "Compliant with MSA SFP Specification",
+            "Compliant with Telcordia GR-253-CORE and IEEE 802.3",
+            "Digital Diagnostic Monitor Interface (DDMI)",
+            "Compatible with SFF-8472",
+            "Operating Case Temperature: Standard (-5℃ to +70℃), Industrial (-40℃ to +85℃)"
+        ],
+        "applications": [
+            "Gigabit Ethernet Switches and Routers",
+            "Fiber Channel Switch",
+            "Other Optical Link"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Trixon 10G SFP+ 20km Transceiver 1310-1270nm",
+        "category": "SFP+",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "image": "https://i.ibb.co/qMQXyxJv/image-Trixon-10-G-SFP-20km-Transceiver-1310-1270nm.jpg",
+        "description": "The 10G SFP+ Transceiver Module is a Small Form-Factor Pluggable Plus module designed for high-speed 10G communication links. It uses a Duplex LC connector, operates on single-mode fiber, and supports a wavelength of 1310nm-DFB with DDM/DOM capabilities for reliable data transmission.",
+        "features": [
+            "Fiber Type: Single-Mode Fiber (SMF)",
+            "Wavelength: 1310nm DFB",
+            "Distance: Up to 20km",
+            "DDM/DOM enabled for digital diagnostic monitoring",
+            "Compliant with MSA SFP Specification",
+            "Operating temperature range: -40℃ to +85℃",
+            "Operating data rate: 11.3 Gbps",
+            "Optical Interface: Duplex LC Connector"
+        ],
+        "applications": [
+            "10G Network Applications",
+            "Data Centers",
+            "High-Speed Enterprise Networks"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Trixon 10G SFP+ 40km Transceiver 1310-1270nm",
+        "category": "SFP+",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "The 10G SFP+ Transceiver Module is a Small Form-Factor Pluggable Plus Transceiver Module, specifically designed for high-speed communication links that require 10G bandwidth. It is equipped with Duplex LC Connector Interface and is compatible with SMF (Single-Mode Fiber) cables. It features a wavelength of 1310nm-DFB, allowing for efficient and reliable data transmission. This module is also DDM/DOM (Digital Diagnostic Monitoring) enabled, providing greater accuracy and reliability in its performance. The 10G SFP+ Transceiver Module is an ideal choice for any 10G network application.",
+        "features": [
+            "Fiber Type: SMF",
+            "Wavelength: 1310nm-DFB",
+            "Distance: 40km",
+            "Product Name: 10G SFP+ Transceiver Module",
+            "DDM/DOM: Yes",
+            "Compliant With MSA SFP Specification",
+            "Temperature Range: -40℃ ~ +85℃",
+            "Operating Data Rate: 11.3Gbps",
+            "Optical Interface: Duplex LC Connector Interface"
+        ],
+        "image": "https://i.ibb.co/YTBQdNgJ/image-Trixon-10-G-SFP-40km-Transceiver-1310-1270nm-c.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Trixon 25G SFP+ Transceiver SR 850nm",
+        "category": "SFP+",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "Trixon 25G SFP+ Transceiver SR 850nm VCSEL 25Gigabit SFP28 transceiver. It is designed to transmit and receive optical data over 50/125μm multimode optical fiber (MMF) and support up to 70m on OM3 MMF and 100m on OM4 MMF. The module has a duplex LC optical interface and all mechanical characteristics are compliant with the current SFP+ specification (SFF-8431 and SFF-8432).",
+        "features": [
+            "Duplex LC optical connector",
+            "SFP28 MSA compliant",
+            "SFF-8431 compliant",
+            "Hot-pluggable SFP footprint",
+            "Built-in digital diagnostic functions",
+            "Capable of over 100m transmission on OM4 multi-mode fiber",
+            "Single +3.3V power supply",
+            "Operating case temperature: 0~70℃ or -40~85℃",
+            "Low power consumption < 1.1W",
+            "RoHS-6 compliant"
+        ],
+        "applications": [
+            "25GBASE-SR"
+        ],
+        "image": "https://i.ibb.co/Jj6tQn5w/image-Trixon-25-G-SFP-Transceiver.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Trixon 40G 20km QSFP+ LR Transceiver",
+        "category": "QSFP",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "description": "Trixon 40G 20km QSFP+ LR4 Transceiver is a 4x10G hot pluggable optical transceiver. The optical connectivity is based on two SMF LC connectors, one for Tx and one for Rx. The Tx and Rx each consist of 4 10GB/s CWDM channels in the 1300nm range. Designed for IEEE802.3ba 40GBASE-LR4 standard applications up to 20km reach.",
+        "features": [
+            "4 independent full-duplex channels up to 11.2Gbps data rate per wavelength",
+            "Distance up to 20km",
+            "Single 3.3V Power supply",
+            "Utilizes two standard LC optical connector",
+            "QSFP+ Hot Pluggable",
+            "Capable of over 100m transmission on OM3 multi-mode fiber",
+            "Compliant with QSFP+ MSA SFF-8436",
+            "Compliant with IEEE802.3ba",
+            "I2C interface with integrated Digital Diagnostic Monitoring",
+            "Operating Case Temperature: 0℃ ~+70℃",
+            "FCC TUV UL and Eye safety certification",
+            "ISO9001:2000",
+            "ISO14001:2004"
+        ],
+        "image": "https://i.ibb.co/C5ybfZgM/mage-Trixon-40-G-20km-QSFP.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Trixon 40G QSFP+ Transceiver Short Range 850nm",
+        "category": "QSFP",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "description": "The TQS-FGM1-85DCR is a parallel 40Gbps Quad Small Form-factor Pluggable (QSFP) optical module offering 4 independent transmit and receive channels for an aggregate data rate of 40Gbps over 100 meters of OM3 multi-mode fiber. Designed to meet harsh operating conditions with high functionality and feature integration.",
+        "features": [
+            "4 independent full-duplex channels",
+            "Up to 10.5Gbps data rate per channel",
+            "MTP/MPO optical connector",
+            "QSFP MSA (SFF-8436) compliant",
+            "Digital diagnostic capabilities",
+            "Capable of over 100m transmission on OM3 multi-mode fiber",
+            "Single +3.3V power supply",
+            "CML compatible electrical I/O",
+            "XLPPI electric interface (with 1.5W Max power)",
+            "RoHS-6 compliant",
+            "Operating Case Temperature: 0℃ ~+70℃",
+            "FCC TUV UL and Eye safety certification",
+            "ISO9001:2000",
+            "ISO14001:2004"
+        ],
+        "image": "https://i.ibb.co/TBTzJCtS/Image-Trixon-100-G-QSFP-Transceiver-Short-Range-850nm.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Trixon 100G 10km QSFP+ LR Transceiver",
+        "category": "QSFP",
+        "brand": "Trixon",
+        "price": "Call for Price",
+        "description": "The TQS-HG10-31DCR is a parallel 100Gbps Quad Small Form-factor Pluggable (QSFP) optical module. It provides increased port density and total system cost savings. The QSFP28 full-duplex optical module offers 4 independent transmit and receive channels, each capable of 25.78125Gbps operation for an aggregate data rate of 100Gbps over 10km of single mode fiber. An optical fiber cable with duplex LC connectors can be plugged into the QSFP28 module receptacle. The module operates by a single +3.3V power supply. LVCMOS/LVTTL global control signals, such as Module Present, Reset, Interrupt and Low Power Mode, are available with the modules. A 2-wire serial interface is available to send and receive more complex control signals, and to receive digital diagnostic information. The TQS-HG10-31DCR is designed with form factor, optical/electrical connection and digital diagnostic interface according to the QSFP Multi-Source Agreement (SFF-8436). It has been designed to meet the harshest external operating conditions including temperature, humidity and EMI interference. The module offers very high functionality and feature integration, accessible via a two-wire serial interface.",
+        "features": [
+            "4 independent LAN-WDM channels",
+            "Up to 25.78125Gbps data rate per channel",
+            "Duplex LC receptacles",
+            "Hot-pluggable QSFP28 form factor",
+            "Digital diagnostic capabilities",
+            "Maximum link length of 10km on Single Mode Fiber (SMF)",
+            "Single +3.3V power supply",
+            "Operating case temperature: 0~70℃",
+            "Low power consumption < 3.5W",
+            "RoHS-6 compliant"
+        ],
+        "compliant_standard": [
+            "100GBASE LR4 100G Ethernet"
+        ],
+        "applications": [],
+        "image": "https://i.ibb.co/4RG1GBCd/image-Trixon-100-G-10km-QSFP-LR-Transceiver.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Trixon 100G 20km QSFP+ LR Transceiver",
+        "category": "QSFP",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "The TQS-HG10-31DCR is a parallel 100Gbps Quad Small Form-factor Pluggable (QSFP) optical module. It provides increased port density and total system cost savings. The QSFP28 full-duplex optical module offers 4 independent transmit and receive channels, each capable of 25.78125Gbps operation for an aggregate data rate of 100Gbps over 20km of single mode fiber. An optical fiber cable with duplex LC connectors can be plugged into the QSFP28 module receptacle. The module operates by a single +3.3V power supply. LVCMOS/LVTTL global control signals, such as Module Present, Reset, Interrupt and Low Power Mode, are available with the modules. A 2-wire serial interface is available to send and receive more complex control signals, and to receive digital diagnostic information. The TQS-HG10-31DCR is designed with form factor, optical/electrical connection and digital diagnostic interface according to the QSFP Multi-Source Agreement (SFF-8436). It has been designed to meet the harshest external operating conditions including temperature, humidity and EMI interference. The module offers very high functionality and feature integration, accessible via a two-wire serial interface.",
+        "features": [
+            "4 independent LAN-WDM channels",
+            "Up to 25.78125Gbps data rate per channel",
+            "Duplex LC receptacles",
+            "Hot-pluggable QSFP28 form factor",
+            "Digital diagnostic capabilities",
+            "Maximum link length of 20km on Single Mode Fiber(SMF)",
+            "Single +3.3V power supply",
+            "Operating case temperature: 0~70℃",
+            "Low power consumption < 3.5W",
+            "RoHS-6 compliant"
+        ],
+        "compliance": [
+            "100GBASE LR4",
+            "100G Ethernet"
+        ],
+        "image": "https://i.ibb.co/d0j0s15z/image-Trixon-100-G-10km-QSFP-LR-Transceiver.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Trixon 100G QSFP+ Transceiver Short Range 850nm",
+        "category": "QSFP+",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "The TQS-HGM1-85DCR is a parallel 100Gbps Quad Small Form-factor Pluggable (QSFP) optical module. It provides increased port density and total system cost savings. The QSFP28 full-duplex optical module offers 4 independent transmit and receive channels, each capable of 25.78125Gbps operation for an aggregate data rate of 100Gbps over 100 meters of OM4 multi-mode fiber. An optical fiber cable with an MPO/MTP connector can be plugged into the QSFP28 module receptacle.",
+        "features": [
+            "4 independent full-duplex channels",
+            "Up to 25.78125Gbps data rate per channel",
+            "MTP/MPO optical connector",
+            "QSFP MSA compliant",
+            "Digital diagnostic capabilities",
+            "Capable of over 100m transmission on OM4 multi-mode fiber",
+            "Single +3.3V power supply",
+            "Operating case temperature: 0~70℃",
+            "Low power consumption < 3.5W",
+            "RoHS-6 compliant"
+        ],
+        "applications": [
+            "IEEE802.3bm 100GBASE SR4 Ethernet"
+        ],
+        "image": "https://i.ibb.co/TBTzJCtS/Image-Trixon-100-G-QSFP-Transceiver-Short-Range-850nm.jpg"
+    },
+    {
+        "id": 15,
+        "name": "83S Splicer",
+        "category": "Fusion Splicer",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "Digital Core Alignment Fusion Splicer. FTTX Active V-groove Fusion Splicer with DACAS-Digital Analysis Core Alignment Systems (PAS - Profile Alignment Systems) with 4 motors. Features a 4.3 inch high resolution color LCD touch screen, anti-reflective, visible clearly with bare eyes. Auto-splicing mode with user-friendly design. German CNC technique and integrated fiber-adjust frame for stable performance. Dust-proof, water-proof, high-temperature resistant, suitable for harsh environments. Optical imaging system ranks No. 1 in the world. Built-in Japanese components and Korean chipset.",
+        "features": [
+            "DACAS-Digital Analysis Core Alignment Systems with 4 motors",
+            "4.3 inch high resolution color LCD touch screen",
+            "Auto-splicing mode",
+            "German CNC technique with integrated fiber-adjust frame",
+            "3 high-power white LEDs and illuminated keypads",
+            "Detachable multifunction fixture for various fiber types",
+            "Dust-proof, water-proof, high-temperature resistance",
+            "Optical imaging system ranked No.1 globally",
+            "Built-in Japanese components and Korean chipset"
+        ],
+        "standard_accessories": [
+            "Fusion splicer 83S x1",
+            "Fiber cleaver x1",
+            "Battery x1",
+            "Power adapter x1",
+            "AC power line x1",
+            "Back-up electrode x1",
+            "Cooling tray x1",
+            "Carrying case x1",
+            "Carrying strap x1",
+            "User manual x1",
+            "Splicing test report x1",
+            "Fiber stripper x1",
+            "Drop cable stripper x1",
+            "Alcohol bottle x1"
+        ],
+        "equipment_parameters": {
+            "model": "83S",
+            "dimension": "125W*140L*130H mm (excluding rubber bumper) / 140W*165L*135H mm (including rubber bumper)",
+            "weight": "1950g (with battery) / 1550g (without battery)",
+            "number_of_fiber": "Single",
+            "applicable_fibers": "SM(ITU-T G.652 & G.657), MM(ITU-T G.651), DS(ITU-T G.653), NZDS(ITU-T G.655)",
+            "compatible_fiber_cable": "0.25 - 3.0 mm / Indoor Cable",
+            "cleaved_length": "Diameter: 0.125 - 1 mm / Cleave Length: 5-16 mm",
+            "cladding_diameter": "80-150 μm",
+            "splicing_mode": "Pre-set 41 splicing modes, max 100 modes",
+            "heating_mode": "Pre-set 5 heating modes (20/30/40/50/60mm), max 100 modes",
+            "typical_splice_loss": "SM: 0.02dB / MM: 0.01dB / DS: 0.04dB / NZDS: 0.04dB / G.657: 0.02dB (ITU-T Standard)",
+            "return_loss": "≥ 60dB",
+            "lighting": "3 White LEDs",
+            "splicing_time": "Quick mode: 6s",
+            "estimated_splice_loss": "Available / Accuracy: 0.01dB",
+            "heating_sleeve_length": "20-60 mm",
+            "heating_time": "Quick heating: 13s, typical: 25s",
+            "results_storage": "20000 latest records & 200 images",
+            "tension_test": "1.96 - 2.25N",
+            "operating_condition": "Altitude: 0 - 5000m, Humidity: 0-95%, Temperature: -10~50℃, Max Wind 15m/s",
+            "storage_condition": "Humidity: 0-95%, Temperature: -40~80℃",
+            "display": "90° bi-directional view, 4.3\" Color High Resolution Display",
+            "fiber_view_magnification": "X, Y, XY, X/Y: 500X Magnification",
+            "power_supply": "AC Input 100-240V, DC Input 10-15V",
+            "splice_heating_cycles_with_battery": "TWP-52: 5200mAh (250 times) / TWP-72: 7200mAh (320 times)",
+            "operating_methods": "Button/Touch Screen",
+            "automatic_calibration": "Automatic arc calibration by air pressure and temperature",
+            "electrode_life": "5000 arcs",
+            "terminal": "Mini USB 2.0"
+        },
+        "image": 
+            "https://i.ibb.co/C3bRX9Dt/Image-Tumtec-83s-Fully-Automatic-Splicer-Machine-1.jpg",
+        "image1": "https://i.ibb.co/JFqbKQZn/Image-Tumtec-83s-Fully-Automatic-Splicer-Machine.jpg"
+        
+    },
+    {
+        "id": 16,
+        "name": "V3 Splicer",
+        "category": "Fusion Splicer",
+        "brand": "Trixon",
+        "price": "Call for price",
+        "description": "MODEL V3 Fusion Splicer with advanced features for fiber optic splicing. Suitable for SM, MM, DS, NZDS, and BI fibers. Designed with a high-resolution 4.3 inch touchscreen and multiple preset splicing and heating modes.",
+        "standard_accessories": [
+            "Fusion splicer V3 x1",
+            "Fiber cleaver x1",
+            "Battery x1",
+            "Power adapter x1",
+            "AC power line x1",
+            "Back-up electrode x1",
+            "Cooling tray x1",
+            "Carrying case x1",
+            "Carrying strap x1",
+            "User manual x1",
+            "Splicing test report x1",
+            "Fiber stripper x1",
+            "Drop cable stripper x1",
+            "Alcohol bottle x1"
+        ],
+        "equipment_parameters": {
+            "model": "V3",
+            "applicable_fibers": "SM (ITU-T G.652), MM (ITU-T G.651), DS (ITU-T G.653), NZ/NZDS (ITU-T G.655), BI (ITU-T G.657)",
+            "compatible_fiber_cable": "0.25-3.0mm / Indoor Cable",
+            "cleaved_length": "Coating Diameter: 0.125-1mm / Cleave length: 8-16mm",
+            "splicing_mode": "Preset 41 splicing modes, storable 100 modes",
+            "typical_splice_loss": "SM: 0.03dB / MM: 0.02dB / DS: 0.05dB / NZDS: 0.05dB / G.657: 0.03dB (ITU-T Standard)",
+            "return_loss": "> 60 dB",
+            "lighting": "3 powerful white LEDs",
+            "splicing_time": "SM FAST mode: 6s",
+            "estimated_splice_loss": "Yes",
+            "protection_sleeve_length": "20-60mm",
+            "heating_tank": "Preset 5 kinds of thermal heating tube: 20/30/40/50/60mm, Max 100 modes",
+            "heating_time": "Optional: 10-900s / Typical Heating Time: > 20s",
+            "results_storage": "20000 latest records & 200 images",
+            "tension_test": "1.5-2.0N",
+            "display": "90° bi-directional view, 4.3\" high resolution display with touch screen",
+            "fiber_view_magnification": "X, Y, XY: 400X Magnification",
+            "fiber_holder": "Multi-function free disassembly fiber clamp",
+            "power_supply": "AC 100-240V, DC 12-15V",
+            "battery_capacity": "5200mAh",
+            "heating_times": "Typical above 400 times (splicing + heating)",
+            "operating_methods": "Button / Touch Screen",
+            "automatic_calibration": "Automatic ARC calibration by air pressure and temperature",
+            "electrode_life": "3000 ARCS",
+            "terminal": "Mini USB 2.0",
+            "weight": "2044.3g (including rubber bumper)",
+            "dimension": "142W*172L*134mm (W*L*H)",
+            "operating_condition": "Altitude: 0-5000m, Humidity: 0-95%, Temperature: -20~50 °C, Max wind 15m/s",
+            "storage_condition": "Humidity: 0-95%, Extreme storage: -40~80°C, Battery storage: -20~30°C"
+        },
+        "image": 
+            "https://i.ibb.co/qMtBXtK6/Image-Tumtec-V3-Fully-Automatic-Splicer-Machine.jpg",
+        "image1":    "https://i.ibb.co/21h3Q5DL/Image-Tumtec-V3-Fully-Automatic-Splicer-Machine1.jpg"
+        
+    },
+    {
+        "id": 17,
+        "name": "Fiber Optic Patch Cords",
+        "category": "Patch Cords",
+        "brand": "Digital Square",
+        "price": "Call for price",
+        "description": "High-quality fiber optic patch cords available in various connector types, modes, diameters, and lengths. Ideal for data centers, telecommunications, and network infrastructure setups. Options include Single Mode and Multi Mode with simplex or duplex configurations.",
+        "types": [
+            {
+                "type": "SC-SC",
+                "mode": "Single Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized"
+            },
+            {
+                "type": "LC-LC",
+                "mode": "Single Mode & Multi Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized",
+                "configuration": [
+                    "Simplex",
+                    "Duplex"
+                ],
+                "multi_mode_types": [
+                    "OM2",
+                    "OM3",
+                    "OM4",
+                    "OM5"
+                ]
+            },
+            {
+                "type": "FC-FC",
+                "mode": "Single Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized"
+            },
+            {
+                "type": "SC-LC",
+                "mode": "Single Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized"
+            },
+            {
+                "type": "SC-FC",
+                "mode": "Single Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized"
+            },
+            {
+                "type": "LC-FC",
+                "mode": "Single Mode",
+                "diameter": [
+                    "2mm",
+                    "3mm"
+                ],
+                "length_range": "0.5M-30M & Customized"
+            }
+        ],
+        "image": "https://i.ibb.co/60QrDThX/High-Quality-SC-SC-Patch-Cord-5-Meter.jpg"
+    }
+]
