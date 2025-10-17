@@ -22,6 +22,8 @@ import ShowProductsInTable from "../pages/AdminPages/ShowProductsInTable/ShowPro
 import BulkSMSHome from "../pages/BulkSMS/BulkSMSHome";
 import ONU from "../pages/ProductAndSolution/ONU/ONU";
 import PrivateRoute from "../router/PrivateRoute";
+import ContactUs from "../pages/ContactUs/ContactUs";
+import OTDR from "../pages/ProductAndSolution/OTDR/OTDR";
 // import ProductHome from "../pages/ProductAndSolution/ProductHome/ProductHome";
 
 
@@ -72,6 +74,14 @@ export const router = createBrowserRouter([
         path: '/bulkSMS',
         element: <BulkSMSHome></BulkSMSHome>
       },
+      {
+        path: '/contact',
+        element: <ContactUs></ContactUs>
+      },
+      {
+        path: '/bulkSMS',
+        element: <BulkSMSHome></BulkSMSHome>
+      },
     ]
   },
   {
@@ -104,7 +114,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "otdr",
-        element: <PatchCord></PatchCord>
+        element: <OTDR></OTDR>
       },
       {
         path: "cleaver",

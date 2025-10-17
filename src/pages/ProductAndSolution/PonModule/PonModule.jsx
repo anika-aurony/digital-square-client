@@ -5,7 +5,7 @@ const PonModule = () => {
     const [ponProducts, setponProducts] = useState([]);
     // console.log(ponProducts.length)
     useEffect(() => {
-        fetch('../product.json')
+        fetch('http://localhost:5000/products/')
             .then(res => res.json())
             .then(data => setponProducts(data))
     }, [])

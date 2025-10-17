@@ -11,6 +11,7 @@ const NavBar = () => {
         </li>
         <li><a>Solution</a></li>
         <li><a><Link to='/bulkSMS'>Bulk SMS</Link></a></li>
+        <li><a><Link to='/contact'>Contact Us</Link></a></li>
         <li>
             <a><Link to="/aboutus">About Us</Link></a>
         </li>
@@ -41,7 +42,7 @@ const NavBar = () => {
                             {navOption}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-l"><img src={logo} alt="Digital Square " className="w-2/3 " /></a>
+                    <Link to="/"><a className="btn btn-ghost text-l"><img src={logo} alt="Digital Square " className="w-2/3 " /></a></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal text-lg">

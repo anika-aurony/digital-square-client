@@ -1,7 +1,9 @@
 import React from 'react';
 
-const SfpModuleDisplay = (props) => {
-    const { name, image, price, brand, description, features, applications } = props.sfpFilter;
+const SplicerDisplay = (props) => {
+    console.log(props.splicerFilter);
+    const { name, image, price, brand, description, features, applications, specImage  } = props.splicerFilter;
+
     return (
         <div>
             <div className="card lg:card-side bg-base-100 shadow-sm border-b-2">
@@ -18,9 +20,10 @@ const SfpModuleDisplay = (props) => {
                     <p>{description}</p>
                     <h2 className="text-lg">Features</h2>
                     <ol>
-                        {
-                            features.map((feature, index) => <li key={index}>{feature}</li>)
-                        }
+                        {features?.map((feature, index) => (
+                            <li key={index}>{feature}</li>
+                        ))}
+
                         <br />
                     </ol>
                     <div className="card-actions justify-end">
@@ -28,8 +31,15 @@ const SfpModuleDisplay = (props) => {
                     </div>
                 </div>
             </div>
+            {specImage &&
+                <div className="mt-4">
+                    <figure className="w-full">
+                        <img src={specImage} alt="Specification" className="w-full" />
+                    </figure>
+                </div> 
+            }
         </div>
     );
 };
 
-export default SfpModuleDisplay;
+export default SplicerDisplay;

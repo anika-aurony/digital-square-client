@@ -15,6 +15,7 @@ const ProductAll = () => {
     const onuFilters = products.filter(onuProduct => onuProduct.category == "ONU");
     const cleaverFilters = products.filter(cleaverProduct => cleaverProduct.category == "Fiber Cleaver");
     const splicerFilters = products.filter(splicerProduct => splicerProduct.category == "Fusion Splicer");
+    const otdrFilters = products.filter(splicerProduct => splicerProduct.category == "OTDR");
     const sfpFilters = products.filter(sfpProduct => ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category));
     const ponFilters = products.filter(ponProduct => ponProduct.category == "OLT");
     const patchcordFilters = products.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
@@ -46,6 +47,16 @@ const ProductAll = () => {
 
 
                     cleaverFilters.map(product => <DisplayProduct key={product.id}
+                        product={product}></DisplayProduct>
+                    )
+                }
+            </div>
+            {/* <h1>OTDR</h1> */}
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+                {
+
+
+                    otdrFilters.map(product => <DisplayProduct key={product.id}
                         product={product}></DisplayProduct>
                     )
                 }

@@ -7,7 +7,7 @@ import Solutions from "../Solutions/Solutions";
 
 const Home = () => {
     return (
-        <div>
+        <div className="mt-12">
             <Banner></Banner>
             <ShowProduct></ShowProduct>
             <Solutions></Solutions>
