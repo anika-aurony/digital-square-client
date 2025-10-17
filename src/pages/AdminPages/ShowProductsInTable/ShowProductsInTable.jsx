@@ -16,7 +16,7 @@ const ShowProductsInTable = () => {
         <div>
             <AdminNavbar></AdminNavbar>
             <div className='mt-36 overflow-x-auto'>
-                <table className="table table-xs">
+                <table className="table table-xs ms-2">
                     <thead>
                         <tr>
                             <th></th>
@@ -28,9 +28,9 @@ const ShowProductsInTable = () => {
                             <th>Delete</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody >
                         {
-                            products.map(product => <ProductTable key={product._id} product={product}></ProductTable>)
+                            products.map((product, index) => <ProductTable key={product._id} product={product} index={index}></ProductTable>)
                         }
 
                     </tbody>

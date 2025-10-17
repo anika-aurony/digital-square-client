@@ -15,7 +15,7 @@ const Splice = () => {
     return (
         <div>
             {
-                splicerFilters.map(splicerFilter => <SplicerDisplay key = {splicerFilter.id}
+                splicerFilters.reverse().map(splicerFilter => <SplicerDisplay key = {splicerFilter.id}
                         splicerFilter ={splicerFilter}></SplicerDisplay>
                     )
             }

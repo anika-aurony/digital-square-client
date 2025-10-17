@@ -31,13 +31,13 @@ const SplicerDisplay = (props) => {
                     </div>
                 </div>
             </div>
-            {specImage &&
+            {/* {specImage &&
                 <div className="mt-4">
                     <figure className="w-full">
                         <img src={specImage} alt="Specification" className="w-full" />
                     </figure>
                 </div> 
-            }
+            } */}
         </div>
     );
 };

@@ -1,7 +1,6 @@
-import React from 'react';
 import Swal from 'sweetalert2';
 
-const ProductTable = ({ product }) => {
+const ProductTable = ({ product, index }) => {
 
     const { _id, id, name, image, category, hotProduct, brand } = product;
 
@@ -43,7 +42,7 @@ const ProductTable = ({ product }) => {
     return (
 
         <tr>
-            <th>{id}</th>
+            <th>{index + 1}</th>
 
             <td>
                 <div className="avatar">

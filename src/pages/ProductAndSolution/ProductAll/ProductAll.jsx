@@ -4,10 +4,11 @@ import DisplayProduct from "../../Home/DisplayProduct/DisplayProduct";
 
 const ProductAll = () => {
     const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);   
 
     useEffect(() => {
         axios.get('http://localhost:5000/products')
-            .then(res => setProducts(res.data))
+            .then(res => {setProducts(res.data), setLoading(false) })
             .catch(err => console.error(err));
     }, []);
     console.log(products);
@@ -19,6 +20,15 @@ const ProductAll = () => {
     const sfpFilters = products.filter(sfpProduct => ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category));
     const ponFilters = products.filter(ponProduct => ponProduct.category == "OLT");
     const patchcordFilters = products.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
+    
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center h-96">
+                <span className="loading loading-spinner text-primary text-3xl"></span>
+            </div>
+        );
+    }
+
     return (
         <div>
             {/* <h1 className="p-3">ONU</h1> */}
@@ -36,7 +46,7 @@ const ProductAll = () => {
                 {
 
 
-                    splicerFilters.map(product => <DisplayProduct key={product.id}
+                    splicerFilters.reverse().map(product => <DisplayProduct key={product.id}
                         product={product}></DisplayProduct>
                     )
                 }
