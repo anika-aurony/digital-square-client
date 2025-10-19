@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PonModuleDisplay = (props) => {
-    console.log(props.ponFilter);
+    
     const { id, name, image, price, brand, description, features, applications } = props.ponFilter;
     return (
         <div>

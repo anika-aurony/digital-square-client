@@ -50,7 +50,7 @@ const ShowProduct = () => {
 
 
     
-    console.log(reorderedProducts);
+    
     return (
         <div className='py-10 bg-base-100'>
 

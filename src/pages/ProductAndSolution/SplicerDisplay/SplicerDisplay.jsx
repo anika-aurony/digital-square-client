@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SplicerDisplay = (props) => {
-    console.log(props.splicerFilter);
+    
     const { name, image, price, brand, description, features, applications, specImage  } = props.splicerFilter;
 
     return (
