@@ -11,7 +11,7 @@ const ProductAll = () => {
             .then(res => {setProducts(res.data), setLoading(false) })
             .catch(err => console.error(err));
     }, []);
-    console.log(products);
+    
 
     const onuFilters = products.filter(onuProduct => onuProduct.category == "ONU");
     const cleaverFilters = products.filter(cleaverProduct => cleaverProduct.category == "Fiber Cleaver");

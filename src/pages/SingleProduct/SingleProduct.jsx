@@ -28,7 +28,7 @@ const SingleProduct = () => {
         return <div className="text-center py-10 text-red-500">Product not found</div>;
     }
 
-    console.log(product)
+    
     const { name, image, description, price, features, applications, specImage } = product;
     return (
         <div className='mt-20 '>

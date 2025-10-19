@@ -3,7 +3,7 @@ import PonModuleDisplay from "../PonModuleDisplay/PonModuleDisplay";
 
 const PonModule = () => {
     const [ponProducts, setponProducts] = useState([]);
-    // console.log(ponProducts.length)
+    
     useEffect(() => {
         fetch('http://localhost:5000/products/')
             .then(res => res.json())
@@ -11,7 +11,7 @@ const PonModule = () => {
     }, [])
 
     const ponFilters = ponProducts.filter(ponProduct => ponProduct.category== "OLT");
-    console.log(ponFilters);
+   
     return (
         <div>
             {

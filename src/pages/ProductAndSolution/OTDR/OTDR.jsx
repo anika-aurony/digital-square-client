@@ -1,4 +1,4 @@
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import OTDRDisplay from '../OTDRDisplay/OTDRDisplay';
 
 const OTDR = () => {
@@ -15,10 +15,10 @@ const OTDR = () => {
     return (
         <div>
             {
-                    otdrFilters.map(otdrFilter => <OTDRDisplay key={otdrFilter._id} otdrFilter={otdrFilter}></OTDRDisplay>
+                otdrFilters.map(otdrFilter => <OTDRDisplay key={otdrFilter._id} otdrFilter={otdrFilter}></OTDRDisplay>
 
-                    )
-                }
+                )
+            }
 
         </div>
     );

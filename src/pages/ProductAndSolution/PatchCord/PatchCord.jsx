@@ -11,7 +11,7 @@ const PatchCord = () => {
             }, [])
             
             const patchcordFilters = patchcordProducts.filter(patchcordProduct => patchcordProduct.category== "Patch Cords");
-            console.log(patchcordFilters);
+            
     return (
         <div>
             {

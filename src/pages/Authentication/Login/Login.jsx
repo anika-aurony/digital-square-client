@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import SocialLogin from "../SocialLogin/SocialLogin";
+import {  useLocation, useNavigate } from "react-router-dom";
+// import SocialLogin from "../SocialLogin/SocialLogin";
 import useAuth from "../../../hooks/useAuth";
 import AdminNavbar from "../../AdminNavbar/AdminNavbar";
 
@@ -52,9 +52,9 @@ const Login = () => {
 
                                 <button className="btn btn-neutral mt-4">Login</button>
                             </fieldset>
-                            <p><small>Donot have an Account? <Link className='btn btn-link' to="/register">Register</Link></small></p>
+                            {/* <p><small>Donot have an Account? <Link className='btn btn-link' to="/register">Register</Link></small></p> */}
                         </form>
-                        <SocialLogin></SocialLogin>
+                        {/* <SocialLogin></SocialLogin> */}
 
                     </div>
                 </div>

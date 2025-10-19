@@ -3,7 +3,7 @@ import SfpModuleDisplay from '../SfpModuleDisplay/SfpModuleDisplay';
 
 const SfpModule = () => {
     const [sfpProducts, setsfpProducts] = useState([]);
-        // console.log(ponProducts.length)
+        
         useEffect(() => {
             fetch('http://localhost:5000/products/')
                 .then(res => res.json())
@@ -11,7 +11,7 @@ const SfpModule = () => {
         }, [])
     
         const sfpFilters = sfpProducts.filter(sfpProduct =>  ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category) );
-        console.log(sfpFilters);
+        
     return (
         <div>
     

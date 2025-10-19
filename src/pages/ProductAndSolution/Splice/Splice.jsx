@@ -3,7 +3,7 @@ import SplicerDisplay from '../SplicerDisplay/SplicerDisplay';
 
 const Splice = () => {
     const [splicerProducts, setsplicerProducts] = useState([]);
-    // console.log(ponProducts.length)
+    
     useEffect(() => {
         fetch('http://localhost:5000/products/')
             .then(res => res.json())
@@ -11,7 +11,7 @@ const Splice = () => {
     }, [])
 
     const splicerFilters = splicerProducts.filter(splicerProduct => splicerProduct.category== "Fusion Splicer");
-    console.log(splicerFilters);
+    
     return (
         <div>
             {

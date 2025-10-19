@@ -9,9 +9,9 @@ const Cleaver = () => {
                 .then(res => res.json())
                 .then(data => setcleaverProducts(data))
         }, [])
-        console.log(cleaverProducts)
+        
         const cleaverFilters = cleaverProducts.filter(cleaverProduct => cleaverProduct.category== "Fiber Cleaver");
-        console.log(cleaverFilters);
+        
     return (
         <div>
             {

@@ -3,8 +3,6 @@ import {
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
-import DataSolution from "../pages/DataAndFttxSolution/DataSolution/DataSolution";
-import FttxSolution from "../pages/DataAndFttxSolution/FttxSolution/FttxSolution";
 // import ProductHome from "../pages/ProductAndSolution/ProductHome/ProductHome";
 import ProductHomeLayout from "../Layout/ProductHomeLayout";
 import PonModule from "../pages/ProductAndSolution/PonModule/PonModule";
@@ -16,7 +14,7 @@ import SingleProduct from "../pages/SingleProduct/SingleProduct";
 import AboutUs from "../pages/AboutUS/AboutUs";
 import ProductAll from "../pages/ProductAndSolution/ProductAll/ProductAll";
 import Login from "../pages/Authentication/Login/Login";
-import Register from "../pages/Authentication/Register/Register";
+// import Register from "../pages/Authentication/Register/Register";
 import AddProduct from "../pages/AdminPages/AddProduct/AddProduct";
 import ShowProductsInTable from "../pages/AdminPages/ShowProductsInTable/ShowProductsInTable";
 import BulkSMSHome from "../pages/BulkSMS/BulkSMSHome";
@@ -38,14 +36,14 @@ export const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>
       },
-      {
-        path: '/datasolution',
-        element: <DataSolution></DataSolution>
-      },
-      {
-        path: '/fttxsolution',
-        element: <FttxSolution></FttxSolution>
-      },
+      // {
+      //   path: '/datasolution',
+      //   element: <DataSolution></DataSolution>
+      // },
+      // {
+      //   path: '/fttxsolution',
+      //   element: <FttxSolution></FttxSolution>
+      // },
       {
         path: "/products/:id",
         element: <SingleProduct></SingleProduct>
@@ -58,10 +56,10 @@ export const router = createBrowserRouter([
         path: '/login',
         element: <Login></Login>
       },
-      {
-        path: '/register',
-        element: <Register></Register>
-      },
+      // {
+      //   path: '/register',
+      //   element: <Register></Register>
+      // },
       {
         path: '/addProduct',
         element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>

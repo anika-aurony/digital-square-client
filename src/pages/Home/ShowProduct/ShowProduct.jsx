@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee';
 import { Link } from 'react-router-dom';
 
 const ShowProduct = () => {
-    // const [products, setProducts] = useState([]);
+    
     const [reorderedProducts, setReorderedProducts] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -49,8 +49,7 @@ const ShowProduct = () => {
     // const hotProductFilters = products.filter(hotProduct => hotProduct.hotProduct == "Yes");
 
 
-    // setLoading(false);
-    // console.log(hotProductFilters);
+    
     console.log(reorderedProducts);
     return (
         <div className='py-10 bg-base-100'>
