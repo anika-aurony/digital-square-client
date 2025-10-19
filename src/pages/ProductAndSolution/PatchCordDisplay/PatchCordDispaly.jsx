@@ -50,12 +50,6 @@ const PatchCordDispaly = (props) => {
                                 </tbody>
                             </table>
                         </div>
-                        {/* <ol>
-                            {
-                                types.map(type => <li >{type.type} {type.mode}</li>)
-                            }
-                            <br />
-                        </ol> */}
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary">{price}</button>
                         </div>

@@ -28,8 +28,8 @@ const SingleProduct = () => {
         return <div className="text-center py-10 text-red-500">Product not found</div>;
     }
 
-    
-    const { name, image, description, price, features, applications, specImage } = product;
+
+    const { name, image, description, price, features, applications, specImage, types } = product;
     return (
         <div className='mt-20 '>
 
@@ -51,7 +51,39 @@ const SingleProduct = () => {
                         <div className="mb-6 text-sm md:text-base leading-relaxed">
                             {description}
                         </div>
-
+                        {/* Patch cord Types */}
+                        {
+                            types && (<div className='my-6'>
+                                <h2 className="text-lg mt-3 text-center">Types Available</h2>
+                                <div className="overflow-x-auto">
+                                    <table className="table">
+                                        {/* head */}
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Type</th>
+                                                <th>Mode</th>
+                                                <th>Diameter</th>
+                                                <th>Length Range</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {
+                                                types.map((type, index) => (
+                                                    <tr key={index}>
+                                                        <th>{index + 1}</th>
+                                                        <td>{type.type}</td>
+                                                        <td>{type.mode}</td>
+                                                        <td>{type.diameter}</td>
+                                                        <td>{type.length_range}</td>
+                                                    </tr>
+                                                ))
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>)
+                        }
                         <div className="flex flex-col sm:flex-row justify-center md:justify-between items-center gap-4">
                             <div className="flex items-center gap-2">
                                 <MdOutlineLocalPhone className="text-xl text-amber-600" />
