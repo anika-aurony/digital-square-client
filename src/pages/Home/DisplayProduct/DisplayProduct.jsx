@@ -15,7 +15,7 @@ const DisplayProduct = (props) => {
                         <h2 className="card-title">{name}</h2>
                         <p>{price}
                             <br />
-                            <button className='text-white p-2 font-semibold text-l'>View Details</button>
+                            <button className='pt-1 font-semibold text-l'>View Details</button>
                         </p>
                     </div>
                 </div>
