@@ -8,7 +8,7 @@ const DisplayProduct = (props) => {
         <div>
             <Link to={`/products/${_id}`}>
                 <div className="card mb-6" >
-                    <figure className=" h-72">
+                    <figure className="md:h-72">
                         <img src={image} alt="Product" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center bg-orange-600 text-white">

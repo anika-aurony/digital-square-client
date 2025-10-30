@@ -18,7 +18,7 @@ const ProductTable = ({ product, index }) => {
             console.log(result.isConfirmed)
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/products/${_id}`, {
+                fetch(`http://182.48.80.169:5000/products/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

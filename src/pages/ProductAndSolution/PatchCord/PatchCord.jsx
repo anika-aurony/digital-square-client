@@ -5,7 +5,7 @@ const PatchCord = () => {
     const [patchcordProducts, setpatchcordProducts] = useState([]);
             
             useEffect(() => {
-                fetch('http://localhost:5000/products/')
+                fetch('http://182.48.80.169:5000/products/')
                     .then(res => res.json())
                     .then(data => setpatchcordProducts(data))
             }, [])

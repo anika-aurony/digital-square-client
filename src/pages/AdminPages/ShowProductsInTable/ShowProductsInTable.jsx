@@ -7,7 +7,7 @@ const ShowProductsInTable = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/products')
+        axios.get('http://182.48.80.169:5000/products')
             .then(res => setProducts(res.data))
             .catch(err => console.error(err));
     }, []);

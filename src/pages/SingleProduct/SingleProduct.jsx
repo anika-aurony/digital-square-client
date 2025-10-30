@@ -9,7 +9,7 @@ const SingleProduct = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/products/${id}`)
+        axios.get(`http://182.48.80.169:5000/products/${id}`)
             .then(res => {
                 setProduct(res.data);
                 setLoading(false);
