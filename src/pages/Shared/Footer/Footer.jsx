@@ -3,7 +3,7 @@ import logo from "../../../assets/logo.png"
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-gradient-to-r from-gray-700 to-gray-900 text-white p-10 flex justify-between">
+            <footer className="footer bg-gradient-to-r from-gray-700 to-gray-900 text-white p-10 md:flex md:justify-between">
                 <aside>
                     <svg
                         width="50"
@@ -21,7 +21,7 @@ const Footer = () => {
                 <aside>
 
                     <p>
-                        Digital Square.
+                        Digital Square Limited.
                         <br />
                         <br />
                         Address:

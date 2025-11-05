@@ -8,10 +8,10 @@ const DisplayProduct = (props) => {
         <div>
             <Link to={`/products/${_id}`}>
                 <div className="card mb-6" >
-                    <figure className="md:h-72">
+                    <figure className="md:h-full">
                         <img src={image} alt="Product" className="rounded-xl" />
                     </figure>
-                    <div className="card-body items-center text-center bg-orange-600 text-white">
+                    <div className="card-body py-4 items-center text-center bg-orange-600 text-white">
                         <h2 className="card-title">{name}</h2>
                         <p>{price}
                             <br />

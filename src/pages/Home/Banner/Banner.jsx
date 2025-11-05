@@ -5,21 +5,9 @@ import banner3 from "../../../assets/banner3.jpg"
 import { useEffect } from "react";
 
 const slides = [
-    {
-        image:  banner1 ,
-        // title: 'Slide 1',
-        // description: 'Experience unparalleled speed with our networking solutions.'
-    },
-    {
-        image:  banner2 ,
-        // title: 'Slide 2',
-        // description: 'Seamless connectivity for your home and office.'
-    },
-    {
-        image: banner3,
-        // title: 'Slide 3',
-        // description: 'Powering your digital world with reliability.'
-    }
+    {image: banner1,},
+    {image: banner2,},
+    {image: banner3,}
 ];
 
 const Banner = () => {
@@ -34,7 +22,8 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className="relative  w-full  h-[550px] hidden md:block">
+        <div className="relative w-full h-[350px] md:h-[550px] hidden md:block ">
+
             {slides.map((slide, index) => (
                 <div
                     key={index}
@@ -46,9 +35,10 @@ const Banner = () => {
                         alt={slide.title}
                         className="w-full h-full object-cover pt-8"
                     />
-                    <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-                        <h2 className="text-3xl font-bold">{slide.title}</h2>
-                        <p className="mt-2 text-lg">{slide.description}</p>
+                    <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+                        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">{slide.title}</h2>
+                        <p className="mt-2 text-sm sm:text-base md:text-lg">{slide.description}</p>
+
                     </div>
                 </div>
             ))}
@@ -57,9 +47,9 @@ const Banner = () => {
                     <button
                         key={index}
                         onClick={() => setCurrentIndex(index)}
-                        className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-white' : 'bg-gray-400'
-                            }`}
+                        className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full ${index === currentIndex ? 'bg-white' : 'bg-gray-400'}`}
                     />
+
                 ))}
             </div>
         </div>

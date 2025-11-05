@@ -30,12 +30,13 @@ const SingleProduct = () => {
 
 
     const { name, image, description, price, features, applications, specImage, types } = product;
+    
     return (
         <div className='mt-20 '>
 
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 px-4 md:px-10 py-6">
                 {/* Image Section */}
-                <figure className="w-full md:w-1/2 flex justify-center">
+                <figure className="w-full md:w-1/3 mx-auto flex ">
                     <img
                         src={image}
                         alt={name}
@@ -89,7 +90,7 @@ const SingleProduct = () => {
                                 <MdOutlineLocalPhone className="text-xl text-amber-600" />
                                 <p>01332811580</p>
                             </div>
-                            <button className="btn btn-outline btn-warning w-full sm:w-auto">
+                            <button className="btn bg-amber-600 text-white w-full sm:w-auto">
                                 {price}
                             </button>
                         </div>
@@ -147,7 +148,7 @@ const SingleProduct = () => {
                 </div>
             )}
 
-            <Link to="/products/productHome" className="btn btn-outline btn-warning flex mx-6 md:mx-12 my-5">Back to Home</Link>
+            <Link to="/products/productHome" className="btn btn-outline  btn-warning flex mx-6 md:mx-12 my-5">Back to Home</Link>
 
         </div>
     );

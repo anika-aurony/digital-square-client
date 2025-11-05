@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PatchCordDispaly = (props) => {
-    const { name, image, price, brand, description, features, applications, types } = props.patchcordFilter;
+    const { name, image, price, brand, description, features, applications, types, _id } = props.patchcordFilter;
     return (
         <div>
             <div>
@@ -15,8 +16,8 @@ const PatchCordDispaly = (props) => {
                     </div>
 
                     <div className="card-body w-full">
-                        <h2 className="card-title">{name}</h2>
-                        <p>{description}</p>
+                        <h2 className="card-title text-2xl md:text-3xl font-semibold">{name}</h2>
+                        <p className='text-sm md:text-base leading-relaxed'>{description}</p>
                         <h2 className="text-lg mt-3 text-center">Types Available</h2>
                         <div className="overflow-x-auto">
                             <table className="table">
@@ -43,15 +44,16 @@ const PatchCordDispaly = (props) => {
                                             </tr>
                                         ))
                                     }
-                                    
+
 
 
 
                                 </tbody>
                             </table>
                         </div>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">{price}</button>
+                        <div className="card-actions flex justify-between">
+                            <Link to={`/products/${_id}`}><button className='btn bg-orange-600 text-white'>See Details</button></Link>
+                            <button className="btn bg-orange-600 text-white">{price}</button>
                         </div>
                     </div>
                 </div>

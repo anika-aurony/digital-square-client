@@ -32,7 +32,7 @@ const ProductAll = () => {
     return (
         <div>
             {/* <h1 className="p-3">ONU</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -42,7 +42,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1 className="p-3">Fusion Splicer</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -52,7 +52,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1>Cleavers</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -62,7 +62,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1>OTDR</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -72,7 +72,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1>OLT</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -82,7 +82,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1>SFP</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
 
 
@@ -92,7 +92,7 @@ const ProductAll = () => {
                 }
             </div>
             {/* <h1>Patch Cord</h1> */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mx-8'>
                 {
                     patchcordFilters.map(product => <DisplayProduct key={product.id}
                         product={product}></DisplayProduct>

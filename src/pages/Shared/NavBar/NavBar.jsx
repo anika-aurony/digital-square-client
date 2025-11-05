@@ -6,7 +6,7 @@ const NavBar = () => {
 
     const navOption = <>
         <li><Link to="/">Home</Link></li>
-        <li className="">
+        <li>
             <a><Link to="/products/productHome">Product</Link></a>
         </li>
         <li><a>Solution</a></li>
@@ -18,7 +18,7 @@ const NavBar = () => {
         
     </>
     return (
-        <>
+        
             <div className="navbar fixed top-0 left-0 bg-white z-10  lg:py-3">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -38,7 +38,7 @@ const NavBar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-4 shadow text-lg">
                             {navOption}
                         </ul>
                     </div>
@@ -67,13 +67,13 @@ const NavBar = () => {
                         </label>
                     </div> */}
                     <div >
-                        <p className="flex "><a className="pr-3 mt-1 text-lg text-orange-300"><MdOutlinePhoneCallback /> </a>  <span className="text-orange-800">+8801332811580</span> </p>
+                        <p className="flex "><a className="pr-3 mt-1 text-lg text-orange-600"><MdOutlinePhoneCallback /> </a>  <span className="text-orange-800 mr-3 ">+8801332811580</span> </p>
                     </div>
 
                 </div>
             </div>
 
-        </>
+        
     );
 };
 

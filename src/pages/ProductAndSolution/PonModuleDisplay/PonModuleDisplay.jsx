@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PonModuleDisplay = (props) => {
-    
-    const { id, name, image, price, brand, description, features, applications } = props.ponFilter;
+
+    const { id, name, image, price, brand, description, features, applications, _id } = props.ponFilter;
     return (
         <div>
             <div className="card lg:card-side bg-base-100 shadow-sm border-b-2">
-                <div className="w-2/3">
+                <div className="md:w-2/3">
                     <figure className="w-full">
                         <img className=""
                             src={image}
@@ -15,17 +16,18 @@ const PonModuleDisplay = (props) => {
                 </div>
 
                 <div className="card-body w-full">
-                    <h2 className="card-title">{name}</h2>
-                    <p>{description}</p>
-                    <h2 className="text-lg">Features</h2>
-                    <ol>
+                    <h2 className="card-title text-2xl md:text-3xl font-semibold">{name}</h2>
+                    <p className='text-sm md:text-base leading-relaxed'>{description}</p>
+                    <h2 className="text-xl font-semibold pt-2">Features</h2>
+                    <ol className='list-disc list-inside space-y-2 md:text-base leading-relaxed' >
                         {
                             features.map(feature => <li key={feature.id} >{feature}</li>)
                         }
                         <br />
                     </ol>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">{price}</button>
+                    <div className="card-actions flex justify-between">
+                        <Link to={`/products/${_id}`}><button className='btn bg-orange-600 text-white'>See Details</button></Link>
+                        <button className="btn bg-orange-600 text-white">{price}</button>
                     </div>
                 </div>
             </div>
