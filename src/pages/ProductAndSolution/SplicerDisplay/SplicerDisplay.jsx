@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const SplicerDisplay = (props) => {
@@ -17,7 +17,7 @@ const SplicerDisplay = (props) => {
     return (
         <div>
             <div className="card lg:card-side bg-base-100 shadow-sm border-b-2">
-                <div className="md:w-2/3">
+                <div className="md:w-2/3 2xl:w-1/2">
                     <figure className="w-full">
                         <img
                             className="w-full h-auto transition-opacity duration-700"
