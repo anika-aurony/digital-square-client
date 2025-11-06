@@ -5,12 +5,14 @@ import AdminNavbar from '../../AdminNavbar/AdminNavbar';
 
 const ShowProductsInTable = () => {
     const [products, setProducts] = useState([]);
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
 
     useEffect(() => {
-        axios.get('http://182.48.80.169:5000/products')
+        axios.get(`${baseURL}/products/`)
             .then(res => setProducts(res.data))
-            .catch(err => console.error(err));
-    }, []);
+            .catch(err => console.error(err))
+            .catch((error) => console.error("Fetch error:", error));
+    }, [baseURL]);
 
     return (
         <div>

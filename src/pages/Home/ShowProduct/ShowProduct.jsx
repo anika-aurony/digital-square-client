@@ -7,10 +7,11 @@ const ShowProduct = () => {
     
     const [reorderedProducts, setReorderedProducts] = useState([]);
     const [loading, setLoading] = useState(true);
-
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
+    
     useEffect(() => {
         setLoading(true); // start loading before fetch
-        fetch("http://182.48.80.169:5000/products")
+        fetch(`${baseURL}/products/`)
             .then(res => res.json())
             .then(data => {
                 const ordered = [
@@ -35,7 +36,7 @@ const ShowProduct = () => {
                 console.error("Error fetching products:", err);
                 setLoading(false); // stop loading even if error
             });
-    }, []);
+    }, [baseURL]);
 
 
     if (loading) {

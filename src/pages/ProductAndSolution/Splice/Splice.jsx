@@ -3,21 +3,24 @@ import SplicerDisplay from '../SplicerDisplay/SplicerDisplay';
 
 const Splice = () => {
     const [splicerProducts, setsplicerProducts] = useState([]);
-    
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
+
     useEffect(() => {
-        fetch('http://182.48.80.169:5000/products/')
+        fetch(`${baseURL}/products/`)
             .then(res => res.json())
             .then(data => setsplicerProducts(data))
-    }, [])
+            .catch((error) => console.error("Fetch error:", error));
+    }, [baseURL])
 
-    const splicerFilters = splicerProducts.filter(splicerProduct => splicerProduct.category== "Fusion Splicer");
-    
+
+    const splicerFilters = splicerProducts.filter(splicerProduct => splicerProduct.category == "Fusion Splicer");
+
     return (
         <div>
             {
-                splicerFilters.reverse().map(splicerFilter => <SplicerDisplay key = {splicerFilter.id}
-                        splicerFilter ={splicerFilter}></SplicerDisplay>
-                    )
+                splicerFilters.reverse().map(splicerFilter => <SplicerDisplay key={splicerFilter.id}
+                    splicerFilter={splicerFilter}></SplicerDisplay>
+                )
             }
         </div>
     );

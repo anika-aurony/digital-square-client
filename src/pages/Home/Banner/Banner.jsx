@@ -22,7 +22,7 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className="relative w-full h-[350px] md:h-[550px] hidden md:block ">
+        <div className="relative w-full h-[200px] sm:h-[330px] md:h-[330px] lg:h-[520px] 2xl:h-[650px] overflow-hidden ">
 
             {slides.map((slide, index) => (
                 <div

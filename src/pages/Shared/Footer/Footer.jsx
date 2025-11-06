@@ -3,7 +3,7 @@ import logo from "../../../assets/logo.png"
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-gradient-to-r from-gray-700 to-gray-900 text-white p-10 md:flex md:justify-between">
+            <footer className="footer bg-gradient-to-r from-gray-600 to-gray-900 text-white ps-6 md:px-10 pb-10  md:pt-8 md:flex md:justify-between">
                 <aside>
                     <svg
                         width="50"
@@ -15,20 +15,20 @@ const Footer = () => {
                         className="fill-current flex items-center">
 
                     </svg>
-                    <img src={logo} alt="Digital Square " className="w-2/3  " />
+                    <img src={logo} alt="Digital Square " className="md:w-2/3  " />
 
                 </aside>
                 <aside>
 
                     <p>
-                        Digital Square Limited.
+                        <span className="font-bold mb-6">Digital Square Limited.</span>
                         <br />
-                        <br />
+                        
                         Address:
                         <br />
                         Impetus Center, 7th Floor (North Side),
                         <br /> 
-                        242/B Tejgaon-Gulshan Link Road, Tejgaon I/A,Dhaka-1208.
+                        242/B Tejgaon-Gulshan Link Road, <br /> Tejgaon I/A,Dhaka-1208.
                     </p>
                 </aside>
                 <nav>

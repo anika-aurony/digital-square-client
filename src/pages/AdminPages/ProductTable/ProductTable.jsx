@@ -4,8 +4,10 @@ const ProductTable = ({ product, index }) => {
 
     const { _id, id, name, image, category, hotProduct, brand } = product;
 
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
+
     const handleDelete = (_id) => {
-        
+
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",
@@ -18,14 +20,14 @@ const ProductTable = ({ product, index }) => {
             console.log(result.isConfirmed)
             if (result.isConfirmed) {
 
-                fetch(`http://182.48.80.169:5000/products/${_id}`, {
+                fetch(`${baseURL}/products/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
                     .then(data => {
                         console.log(data)
                         if (data.message == 'Product deleted successfully') {
-                            
+
                             Swal.fire({
                                 title: "Deleted!",
                                 text: "Your file has been deleted.",

@@ -3,21 +3,23 @@ import CleaverDisplay from '../CleaverDisplay/CleaverDisplay';
 
 const Cleaver = () => {
     const [cleaverProducts, setcleaverProducts] = useState([]);
-        
-        useEffect(() => {
-            fetch('http://182.48.80.169:5000/products/')
-                .then(res => res.json())
-                .then(data => setcleaverProducts(data))
-        }, [])
-        
-        const cleaverFilters = cleaverProducts.filter(cleaverProduct => cleaverProduct.category== "Fiber Cleaver");
-        
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
+
+    useEffect(() => {
+        fetch(`${baseURL}/products/`)
+            .then(res => res.json())
+            .then(data => setcleaverProducts(data))
+            .catch((error) => console.error("Fetch error:", error));
+    }, [baseURL])
+
+    const cleaverFilters = cleaverProducts.filter(cleaverProduct => cleaverProduct.category == "Fiber Cleaver");
+
     return (
         <div>
             {
-                cleaverFilters.map(cleaverFilter => <CleaverDisplay key = {cleaverFilter.id}
-                        cleaverFilter ={cleaverFilter}></CleaverDisplay>
-                    )
+                cleaverFilters.map(cleaverFilter => <CleaverDisplay key={cleaverFilter.id}
+                    cleaverFilter={cleaverFilter}></CleaverDisplay>
+                )
             }
         </div>
     );

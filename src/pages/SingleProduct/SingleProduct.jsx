@@ -7,18 +7,33 @@ const SingleProduct = () => {
     const { id } = useParams();
     const [product, setProduct] = useState();
     const [loading, setLoading] = useState(true);
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
 
     useEffect(() => {
-        axios.get(`http://182.48.80.169:5000/products/${id}`)
-            .then(res => {
+        setLoading(true);
+        axios
+            .get(`${baseURL}/products/${id}`)
+            .then((res) => {
                 setProduct(res.data);
                 setLoading(false);
             })
-            .catch(err => {
-                console.error('Error fetching product:', err);
+            .catch((err) => {
+                console.error("Error fetching product:", err);
                 setLoading(false);
             });
-    }, [id]);
+    }, [id, baseURL]);
+
+    // useEffect(() => {
+    //     axios.get(`http://182.48.80.169:5000/products/${id}`)
+    //         .then(res => {
+    //             setProduct(res.data);
+    //             setLoading(false);
+    //         })
+    //         .catch(err => {
+    //             console.error('Error fetching product:', err);
+    //             setLoading(false);
+    //         });
+    // }, [id]);
 
     if (loading) {
         return <div className="text-center py-10">Loading...</div>;
@@ -30,7 +45,7 @@ const SingleProduct = () => {
 
 
     const { name, image, description, price, features, applications, specImage, types } = product;
-    
+
     return (
         <div className='mt-20 '>
 

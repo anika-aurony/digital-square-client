@@ -1,16 +1,19 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import DisplayProduct from "../../Home/DisplayProduct/DisplayProduct";
+import DisplaySplicer from "../DisplaySplicer/DisplaySplicer";
+
+
 
 const ProductAll = () => {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);   
-
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
     useEffect(() => {
-        axios.get('http://182.48.80.169:5000/products')
+        axios.get(`${baseURL}/products`)
             .then(res => {setProducts(res.data), setLoading(false) })
             .catch(err => console.error(err));
-    }, []);
+    }, [baseURL]);
     
 
     const onuFilters = products.filter(onuProduct => onuProduct.category == "ONU");
@@ -46,8 +49,11 @@ const ProductAll = () => {
                 {
 
 
-                    splicerFilters.reverse().map(product => <DisplayProduct key={product.id}
-                        product={product}></DisplayProduct>
+                    splicerFilters.reverse().map(product => <DisplaySplicer key={product.id}
+                        product={product}>
+
+                    </DisplaySplicer>
+                    
                     )
                 }
             </div>

@@ -3,21 +3,24 @@ import PatchCordDispaly from "../PatchCordDisplay/PatchCordDispaly";
 
 const PatchCord = () => {
     const [patchcordProducts, setpatchcordProducts] = useState([]);
-            
-            useEffect(() => {
-                fetch('http://182.48.80.169:5000/products/')
-                    .then(res => res.json())
-                    .then(data => setpatchcordProducts(data))
-            }, [])
-            
-            const patchcordFilters = patchcordProducts.filter(patchcordProduct => patchcordProduct.category== "Patch Cords");
-            
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
+
+    useEffect(() => {
+        fetch(`${baseURL}/products/`)
+            .then(res => res.json())
+            .then(data => setpatchcordProducts(data))
+            .catch((error) => console.error("Fetch error:", error));
+    }, [baseURL])
+
+
+    const patchcordFilters = patchcordProducts.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
+
     return (
         <div>
             {
-                patchcordFilters.map(patchcordFilter => <PatchCordDispaly key = {patchcordFilter.id}
-                        patchcordFilter ={patchcordFilter}></PatchCordDispaly>
-                    )
+                patchcordFilters.map(patchcordFilter => <PatchCordDispaly key={patchcordFilter.id}
+                    patchcordFilter={patchcordFilter}></PatchCordDispaly>
+                )
             }
         </div>
     );
