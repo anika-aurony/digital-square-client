@@ -7,14 +7,14 @@ import DisplaySplicer from "../DisplaySplicer/DisplaySplicer";
 
 const ProductAll = () => {
     const [products, setProducts] = useState([]);
-    const [loading, setLoading] = useState(true);   
+    const [loading, setLoading] = useState(true);
     const baseURL = import.meta.env.VITE_API_BASE_URL;
     useEffect(() => {
         axios.get(`${baseURL}/products`)
-            .then(res => {setProducts(res.data), setLoading(false) })
+            .then(res => { setProducts(res.data), setLoading(false) })
             .catch(err => console.error(err));
     }, [baseURL]);
-    
+
 
     const onuFilters = products.filter(onuProduct => onuProduct.category == "ONU");
     const cleaverFilters = products.filter(cleaverProduct => cleaverProduct.category == "Fiber Cleaver");
@@ -23,7 +23,7 @@ const ProductAll = () => {
     const sfpFilters = products.filter(sfpProduct => ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category));
     const ponFilters = products.filter(ponProduct => ponProduct.category == "OLT");
     const patchcordFilters = products.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
-    
+    splicerFilters.unshift(splicerFilters.pop());
     if (loading) {
         return (
             <div className="flex justify-center items-center h-96">
@@ -49,11 +49,11 @@ const ProductAll = () => {
                 {
 
 
-                    splicerFilters.reverse().map(product => <DisplaySplicer key={product.id}
+                    splicerFilters.map(product => <DisplaySplicer key={product.id}
                         product={product}>
 
                     </DisplaySplicer>
-                    
+
                     )
                 }
             </div>

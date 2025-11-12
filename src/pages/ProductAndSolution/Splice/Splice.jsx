@@ -14,11 +14,11 @@ const Splice = () => {
 
 
     const splicerFilters = splicerProducts.filter(splicerProduct => splicerProduct.category == "Fusion Splicer");
-
+    splicerFilters.unshift(splicerFilters.pop());
     return (
         <div>
             {
-                splicerFilters.reverse().map(splicerFilter => <SplicerDisplay key={splicerFilter.id}
+                splicerFilters.map(splicerFilter => <SplicerDisplay key={splicerFilter.id}
                     splicerFilter={splicerFilter}></SplicerDisplay>
                 )
             }
