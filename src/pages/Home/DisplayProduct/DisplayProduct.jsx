@@ -7,11 +7,11 @@ const DisplayProduct = (props) => {
     return (
         <div>
             <Link to={`/products/${_id}`}>
-                <div className="card mb-6" >
+                <div className="card mb-6 border border-orange-600 border-1 border-b-0 rounded-xl" >
                     <figure className="md:h-full">
                         <img src={image} alt="Product" className="rounded-xl" />
                     </figure>
-                    <div className="card-body py-4 items-center text-center bg-orange-600 text-white">
+                    <div className="card-body py-4 items-center text-center rounded-b-xl bg-orange-600 text-white hover:bg-amber-500/90 transition-colors duration-300">
                         <h2 className="card-title">{name}</h2>
                         <p>{price}
                             <br />

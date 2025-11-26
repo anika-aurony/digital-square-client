@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import datasolution from '../../../assets/data.jpg'
 import fttx from '../../../assets/fttx.jpg'
 
@@ -23,7 +22,7 @@ const Solutions = () => {
                         <h2 className="card-title">Data Center Solutions</h2>
                         <p>A data center solution encompasses the comprehensive infrastructure, technologies...</p>
                         <div className="card-actions justify-end">
-                            <Link to='/datasolution'><button className="text-orange-400 btn btn-ghost"> See More...</button></Link>
+                            <button className="text-orange-400 btn btn-ghost"> See More...</button>
                         </div>
                     </div>
                 </div>
@@ -39,7 +38,7 @@ const Solutions = () => {
                         <h2 className="card-title">FTTx Solutions</h2>
                         <p>With the rapid deployment of FTTx and its global adoption, Digital Square provides... </p>
                         <div className="card-actions justify-end">
-                            <Link to='/fttxsolution'><button className="text-orange-400 btn btn-ghost"> See More...</button></Link>
+                            <button className="text-orange-400 btn btn-ghost"> See More...</button>
                         </div>
                     </div>
                 </div>
