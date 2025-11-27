@@ -7,7 +7,7 @@ const DisplayProduct = (props) => {
     return (
         <div>
             <Link to={`/products/${_id}`}>
-                <div className="card mb-6 border border-orange-600 border-1 border-b-0 rounded-xl" >
+                <div className="card mb-6 border border-orange-300 border-1 border-b-0 rounded-xl" >
                     <figure className="md:h-full">
                         <img src={image} alt="Product" className="rounded-xl" />
                     </figure>

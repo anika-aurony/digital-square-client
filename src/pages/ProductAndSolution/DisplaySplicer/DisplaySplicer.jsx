@@ -24,7 +24,7 @@ const DisplaySplicer = (props) => {
     return (
         <div>
             <Link to={`/products/${_id}`}>
-                <div className="card mb-6 border border-orange-600 border-1 border-b-0 rounded-xl">
+                <div className="card mb-6 border border-orange-300 border-1 border-b-0 rounded-xl">
                     <figure className="md:h-full overflow-hidden">
                         <img
                             className={`w-full h-auto rounded-xl transition-opacity duration-500 ease-in-out ${

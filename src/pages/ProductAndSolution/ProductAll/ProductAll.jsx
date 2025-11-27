@@ -23,7 +23,9 @@ const ProductAll = () => {
     const sfpFilters = products.filter(sfpProduct => ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category));
     const ponFilters = products.filter(ponProduct => ponProduct.category == "OLT");
     const patchcordFilters = products.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
-    splicerFilters.unshift(splicerFilters.pop());
+    if (splicerFilters.length > 1) {
+        splicerFilters.unshift(splicerFilters.pop());
+    }
     if (loading) {
         return (
             <div className="flex justify-center items-center h-96">

@@ -1,4 +1,4 @@
-import React from 'react';
+
 const prices = [
     {
         type: "Non-Masking SMS",
@@ -56,7 +56,7 @@ const SmsPrice = () => {
                             {item.type}
 
                         </div>
-                        <div className='bg-amber-600 py-2 text-2xl font-semibold'>$ {item.Rate} / <span className='text-lg'>SMS</span></div>
+                        <div className='bg-amber-600 py-2 text-2xl font-semibold'>৳ {item.Rate} / <span className='text-lg'>SMS</span></div>
                         <div className='py-7 text-lg'>
                             <p><span className='font-bold pt-4'>Quantity :</span> {item.quantity}</p>
                             <p className="py-2"><span className='font-bold'>Validity :</span> {item.Validity}</p>
@@ -78,7 +78,7 @@ const SmsPrice = () => {
                             {item.type}
 
                         </div>
-                        <div className={`bg-yellow-600 py-2 text-2xl font-semibold`}>$ {item.Rate} / <span className='text-lg'>SMS</span></div>
+                        <div className={`bg-yellow-600 py-2 text-2xl font-semibold`}>৳ {item.Rate} / <span className='text-lg'>SMS</span></div>
                         <div className='py-7 text-lg'>
                             <p><span className='font-bold pt-4'>Quantity :</span> {item.quantity}</p>
                             <p className="py-2"><span className='font-bold'>Validity :</span> {item.Validity}</p>

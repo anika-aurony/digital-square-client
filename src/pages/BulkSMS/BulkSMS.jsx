@@ -13,15 +13,11 @@ const BulkSMS = () => {
                 <p className="font-semibold">📧 Email: sales@digitalsquare.ltd</p>
                 <p className="font-semibold mb-6">📞 Phone: +88101713035618</p>
 
-                <a
-                    href="https://isms.digitalsquare.ltd"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <button className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg shadow-lg text-lg transition">
-                        Subscribe
-                    </button>
-                </a>
+
+                <button className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg shadow-lg text-lg transition">
+                    Subscribe
+                </button>
+
             </section>
 
         </div>

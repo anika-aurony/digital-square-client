@@ -1,9 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../../assets/logo.png"
+import smslogo from "../../../assets/bulksmslogo.jpg"
 import { MdOutlinePhoneCallback } from "react-icons/md";
 
 const NavBar = () => {
 
+    const location = useLocation();
+
+    let currentLogo = logo;
+
+    if (location.pathname === "/bulkSMS") {
+        currentLogo = smslogo;
+    }
     const navOption = <>
         <li><Link to="/">Home</Link></li>
         <li>
@@ -17,6 +25,7 @@ const NavBar = () => {
         </li>
         
     </>
+
     return (
         
             <div className="navbar fixed top-0 left-0 bg-white z-10  lg:py-3">
@@ -42,7 +51,7 @@ const NavBar = () => {
                             {navOption}
                         </ul>
                     </div>
-                    <Link to="/"><a className="btn btn-ghost text-l"><img src={logo} alt="Digital Square " className="w-2/3 " /></a></Link>
+                    <Link to="/"><a className="btn btn-ghost text-l"><img src={currentLogo} alt="Digital Square " className="w-2/3 " /></a></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal text-lg">
@@ -51,21 +60,7 @@ const NavBar = () => {
                 </div>
 
                 <div className="navbar-end">
-                    {/* <div className="me-8">
-                        <label className="input input-bordered flex items-center gap-1">
-                            <input type="text" className="grow" placeholder="Search" />
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 16 16"
-                                fill="currentColor"
-                                className="h-4 w-3 opacity-70">
-                                <path
-                                    fillRule="evenodd"
-                                    d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-                                    clipRule="evenodd" />
-                            </svg>
-                        </label>
-                    </div> */}
+                    
                     <div >
                         <p className="flex "><a className="pr-3 mt-1 text-lg text-orange-600"><MdOutlinePhoneCallback /> </a>  <span className="text-orange-800 mr-3 ">+8801332811580</span> </p>
                     </div>

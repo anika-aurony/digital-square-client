@@ -14,7 +14,10 @@ const Splice = () => {
 
 
     const splicerFilters = splicerProducts.filter(splicerProduct => splicerProduct.category == "Fusion Splicer");
-    splicerFilters.unshift(splicerFilters.pop());
+    if (splicerFilters.length > 1) {
+        splicerFilters.unshift(splicerFilters.pop());
+    }
+    
     return (
         <div>
             {
