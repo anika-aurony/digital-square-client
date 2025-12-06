@@ -12,6 +12,7 @@ const IndustryUseCases = () => {
                 <li className="transition-transform duration-500 font-semibold  hover:-translate-y-3"><GiCheckMark className="inline text-rose-600 mr-1 -mt-1" /> Healthcare & Education: Appointment reminders & announcements</li>
                 <li className="transition-transform duration-500 font-semibold  hover:-translate-y-3"><GiCheckMark className="inline text-rose-600 mr-1 -mt-1" /> Government & Enterprises: Awareness campaigns</li>
                 <li className="transition-transform duration-500 font-semibold  hover:-translate-y-3"><GiCheckMark className="inline text-rose-600 mr-1 -mt-1" /> Startups & SaaS: Onboarding, renewals & alerts</li>
+                <li className="transition-transform duration-500 font-semibold  hover:-translate-y-3"><GiCheckMark className="inline text-rose-600 mr-1 -mt-1" /> Election Campaigns: Voter outreach, event updates & awareness</li>
             </ul>
         </section>
 

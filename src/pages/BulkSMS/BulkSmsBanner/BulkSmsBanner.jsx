@@ -1,4 +1,4 @@
-import banner from "../../../assets/bulkSmsBanner_original.jpg"
+import banner from "../../../assets/DigitalBartaBulkSMS.jpg"
 
 const BulkSmsBanner = () => {
     return (
@@ -7,7 +7,7 @@ const BulkSmsBanner = () => {
                 <img
                     src={banner}
                     alt="Banner"
-                    className="w-full h-[215px] sm:h-[330px] md:h-[375px] lg:h-[650px] 2xl:h-[850px] object-cover shadow-xl"
+                    className="w-full h-[160px] sm:h-[230px] md:h-[250px] lg:h-[423px] 2xl:h-[850px] object-cover shadow-xl"
                     
                 />
             </div>
