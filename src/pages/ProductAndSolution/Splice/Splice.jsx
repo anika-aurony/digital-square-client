@@ -19,7 +19,7 @@ const Splice = () => {
     }
     
     return (
-        <div>
+        <div className='bg-white'>
             {
                 splicerFilters.map(splicerFilter => <SplicerDisplay key={splicerFilter.id}
                     splicerFilter={splicerFilter}></SplicerDisplay>

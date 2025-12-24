@@ -53,7 +53,7 @@ const ShowProduct = () => {
     
     
     return (
-        <div className='py-10 bg-base-100'>
+        <div className='py-10 bg-white'>
 
             <h2 className="text-2xl font-serif uppercase font-bold mb-6 text-center text-orange-500">
                 🔥 Hot  Products
@@ -63,7 +63,7 @@ const ShowProduct = () => {
                     <Link
                         key={p._id}
                         to={`/products/${p._id}`}
-                        className="card w-60 mx-4 bg-base-100 border shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
+                        className="card w-60 mx-4 bg-white border shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
                     >
                         <figure className="h-40">
                             <img

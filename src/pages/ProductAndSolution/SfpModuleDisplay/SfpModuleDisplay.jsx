@@ -5,7 +5,7 @@ const SfpModuleDisplay = (props) => {
     const { name, image, price, brand, description, features, applications, _id } = props.sfpFilter;
     return (
         <div>
-            <div className="card lg:card-side bg-base-100 shadow-sm border-b-2">
+            <div className="card lg:card-side text-gray-950 shadow-sm border-b-2">
                 <div className="md:w-2/3">
                     <figure className="w-full">
                         <img className=""
@@ -25,8 +25,8 @@ const SfpModuleDisplay = (props) => {
                         <br />
                     </ol>
                     <div className="card-actions flex justify-between">
-                        <Link to={`/products/${_id}`}><button className='btn bg-orange-600 text-white'>See Details</button></Link>
-                        <button className="btn bg-orange-600 text-white">{price}</button>
+                        <Link to={`/products/${_id}`}><button className='btn bg-orange-600 border-orange-600 text-white'>See Details</button></Link>
+                        <button className="btn bg-orange-600 border-orange-600 text-white">{price}</button>
                     </div>
                 </div>
             </div>

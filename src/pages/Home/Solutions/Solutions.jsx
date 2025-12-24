@@ -11,7 +11,7 @@ const Solutions = () => {
                 <p className="text-stone-500 text-sm">Dedicated to Fiber optical networking solutions to serve our customers all around</p>
             </section>
             <section className="flex flex-col lg:flex-row justify-center items-center lg:justify-evenly mt-10 mb-20 ">
-                <div className="bottom-6 lg:bottom-0 card bg-base-100 w-96 shadow-xl md:mb-2 rounded-none hover:scale-105 transition-all duration-500">
+                <div className="bottom-6 lg:bottom-0 card bg-white w-96 shadow-xl md:mb-2 rounded-none hover:scale-105 transition-all duration-500">
                     
                         <figure>
                             <img
@@ -26,7 +26,7 @@ const Solutions = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl rounded-none hover:scale-105 transition-all duration-500">
+                <div className="card bg-white w-96 shadow-xl rounded-none hover:scale-105 transition-all duration-500">
                    
                         <figure>
                             <img

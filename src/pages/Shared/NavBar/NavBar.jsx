@@ -31,7 +31,7 @@ const NavBar = () => {
             <div className="navbar fixed top-0 left-0 bg-white z-10  lg:py-3">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost text-orange-800 lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -54,7 +54,7 @@ const NavBar = () => {
                     <Link to="/"><a className="btn btn-ghost text-l"><img src={currentLogo} alt="Digital Square " className="w-2/3 " /></a></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal text-lg">
+                    <ul className="menu menu-horizontal text-gray-950 text-lg">
                         {navOption}
                     </ul>
                 </div>

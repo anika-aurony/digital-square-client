@@ -44,7 +44,7 @@ const brandSMSPrices = [
 const SmsPrice = () => {
     return (
         <div className='my-12'>
-            <h1 className='text-3xl font-bold text-center mb-10'>SMS Prices & Packages</h1>
+            <h1 className='text-3xl text-gray-950 font-bold text-center mb-10'>SMS Prices & Packages</h1>
             <div className='grid sm:grid-cols-3 grid-cols-1 md:grid-cols-3 gap-8 sm:gap-4 md:gap-7 mx-8'>
                 {prices.map((item, index) => (
                     <div

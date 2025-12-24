@@ -6,7 +6,7 @@ const PatchCordDispaly = (props) => {
     return (
         <div>
             <div>
-                <div className="card lg:card-side bg-base-100 shadow-sm border-b-2">
+                <div className="card lg:card-side text-gray-950 shadow-sm border-b-2">
                     <div className="w-2/4">
                         <figure className="w-full">
                             <img className=""
@@ -52,8 +52,8 @@ const PatchCordDispaly = (props) => {
                             </table>
                         </div>
                         <div className="card-actions flex justify-between">
-                            <Link to={`/products/${_id}`}><button className='btn bg-orange-600 text-white'>See Details</button></Link>
-                            <button className="btn bg-orange-600 text-white">{price}</button>
+                            <Link to={`/products/${_id}`}><button className='btn bg-orange-600 border-orange-600 text-white'>See Details</button></Link>
+                            <button className="btn bg-orange-600 border-orange-600 text-white">{price}</button>
                         </div>
                     </div>
                 </div>

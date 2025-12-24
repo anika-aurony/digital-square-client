@@ -16,7 +16,7 @@ const ONU = () => {
 
     return (
         <div>
-            <div>
+            <div className='bg-white'>
                 {
                     onuFilters.map(onuFilter => <OnuDisplay key={onuFilter._id} onuFilter={onuFilter}></OnuDisplay>
 

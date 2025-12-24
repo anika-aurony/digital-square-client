@@ -7,7 +7,7 @@ const BulkSMS = () => {
         <div className="w-full">
 
             {/* ---------------- CTA ---------------- */}
-            <section className="text-center p-10">
+            <section className="text-center text-gray-950 p-10">
                 <h2 className="text-3xl font-bold mb-4"> Start Messaging Today with Digital Barta</h2>
                 <p className="text-lg mb-6">
                     Boost your communication with affordable pricing, enterprise scalability, and instant connectivity.

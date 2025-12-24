@@ -41,7 +41,7 @@ const features = [
 const Features = () => {
     return (
         <div>
-            <section className="p-6 md:p-10">
+            <section className="text-gray-950 p-6 md:p-10">
                 <h2 className="text-3xl font-bold text-center mb-10">Why Choose <span className='text-orange-600'>Digital Barta</span></h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">

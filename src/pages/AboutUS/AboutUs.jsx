@@ -3,7 +3,7 @@ import { HiSparkles } from "react-icons/hi2";
 
 const AboutUs = () => {
   return (
-    <div className="mt-20 font-sans">
+    <div className="mt-16 pt-4 font-sans bg-white">
       {/* Hero Section */}
       <div
         className="hero min-h-screen relative bg-cover bg-center"
@@ -35,7 +35,7 @@ const AboutUs = () => {
       </div>
 
       {/* Our Uniqueness Section */}
-      <div className="px-6 md:px-20 lg:px-28 my-14 animate-slideUp">
+      <div className="px-6 md:px-20 lg:px-28 py-14 animate-slideUp">
         <h1 className="text-3xl text-orange-600 mb-6 font-bold text-center">
           Our Uniqueness
         </h1>

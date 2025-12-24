@@ -10,7 +10,7 @@ import SmsPrice from './SmsPrice/SmsPrice';
 
 const BulkSMSHome = () => {
     return (
-        <div className='mt-20 md:mx-12 lg:mx-0 '>
+        <div className='mt-20 md:mx-12 lg:mx-0 bg-white'>
             <BulkSmsBanner></BulkSmsBanner>
             <div className='mx-4 sm:mx-6 md:mx-auto max-w-full sm:max-w-3xl md:max-w-6xl'>                
                 <Description></Description>

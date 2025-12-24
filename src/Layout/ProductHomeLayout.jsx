@@ -10,7 +10,7 @@ const ProductHomeLayout = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <div className="flex flex-col md:flex-row mt-20">
+            <div className="flex flex-col md:flex-row mt-16 lg:mt-20  bg-white">
                 {/* Mobile Top Bar */}
                 <div className="md:hidden bg-orange-300 p-3 flex justify-between items-center shadow">
                     <h2 className="text-lg font-semibold text-gray-900">Products</h2>
@@ -25,7 +25,7 @@ const ProductHomeLayout = () => {
           ${isOpen ? "translate-x-0" : "-translate-x-full"} 
           fixed md:fixed md:top-0 md:left-0 md:h-screen md:overflow-y-auto shadow-md z-50`} 
                 >
-                    <ul className="py-4 mt-10 md:mt-0">
+                    <ul className="py-4 mt-10 md:mt-0 text-gray-950">
                         {[
                             { path: "/products/onu", label: "ONU" },
                             { path: "/products/splice", label: "Fusion Splicer" },
@@ -60,7 +60,7 @@ const ProductHomeLayout = () => {
                 )}
 
                 {/* Main Content */}
-                <div className="flex-1 p-4 mt-4 md:ml-60 md:mt-0">
+                <div className="flex-1 p-4 mt-4 md:ml-60 md:mt-0 bg-white">
                     <Outlet />
                 </div>
             </div>

@@ -15,7 +15,7 @@ const OTDR = () => {
     const otdrFilters = otdrProducts.filter(otdrProduct => otdrProduct.category == "OTDR");
 
     return (
-        <div>
+        <div className='bg-white'>
             {
                 otdrFilters.map(otdrFilter => <OTDRDisplay key={otdrFilter._id} otdrFilter={otdrFilter}></OTDRDisplay>
 

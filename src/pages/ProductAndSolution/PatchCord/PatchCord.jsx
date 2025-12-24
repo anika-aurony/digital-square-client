@@ -16,7 +16,7 @@ const PatchCord = () => {
     const patchcordFilters = patchcordProducts.filter(patchcordProduct => patchcordProduct.category == "Patch Cords");
 
     return (
-        <div>
+        <div className="bg-white">
             {
                 patchcordFilters.map(patchcordFilter => <PatchCordDispaly key={patchcordFilter.id}
                     patchcordFilter={patchcordFilter}></PatchCordDispaly>

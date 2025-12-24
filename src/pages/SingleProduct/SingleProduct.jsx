@@ -47,7 +47,7 @@ const SingleProduct = () => {
     const { name, image, description, price, features, applications, specImage, types } = product;
 
     return (
-        <div className='mt-20 '>
+        <div className='mt-16 md:mt-20 bg-white text-gray-950'>
 
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 px-4 md:px-10 py-6">
                 {/* Image Section */}
@@ -103,9 +103,9 @@ const SingleProduct = () => {
                         <div className="flex flex-col sm:flex-row justify-center md:justify-between items-center gap-4">
                             <div className="flex items-center gap-2">
                                 <MdOutlineLocalPhone className="text-xl text-amber-600" />
-                                <p>01332811580</p>
+                                <p>+8801332811580</p>
                             </div>
-                            <button className="btn bg-amber-600 text-white w-full sm:w-auto">
+                            <button className="btn bg-amber-600 border-amber-600 text-white w-full sm:w-auto">
                                 {price}
                             </button>
                         </div>
@@ -162,8 +162,9 @@ const SingleProduct = () => {
                     />
                 </div>
             )}
-
-            <Link to="/products/productHome" className="btn btn-outline  btn-warning flex mx-6 md:mx-12 my-5">Back to Home</Link>
+            <div className='bg-white py-5'>
+                <Link to="/products/productHome" className="btn btn-outline  btn-warning flex mx-6 md:mx-12">Back to Home</Link>
+            </div>
 
         </div>
     );

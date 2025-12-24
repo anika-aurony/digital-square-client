@@ -16,7 +16,7 @@ const PonModule = () => {
     const ponFilters = ponProducts.filter(ponProduct => ponProduct.category == "OLT");
 
     return (
-        <div>
+        <div className="bg-white">
             {
                 ponFilters.map(ponFilter => <PonModuleDisplay key={ponFilter.id}
                     ponFilter={ponFilter}></PonModuleDisplay>

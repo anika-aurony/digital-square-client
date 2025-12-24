@@ -3,7 +3,7 @@
 const HowItWork = () => {
     return (
         <div className='my-12'>
-            <h2 className=" text-3xl font-bold text-center mb-10  "> How It Works</h2>
+            <h2 className=" text-3xl text-gray-950 font-bold text-center mb-10  "> How It Works</h2>
             <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 my-14 pb-10">
 
                 {/* Step 1 */}

@@ -15,7 +15,7 @@ const SfpModule = () => {
     const sfpFilters = sfpProducts.filter(sfpProduct => ["SFP", "SFP+", "QSFP", "QSFP+"].includes(sfpProduct.category));
 
     return (
-        <div>
+        <div className='bg-white'>
 
             {
                 sfpFilters.map(sfpFilter => <SfpModuleDisplay key={sfpFilter.id}

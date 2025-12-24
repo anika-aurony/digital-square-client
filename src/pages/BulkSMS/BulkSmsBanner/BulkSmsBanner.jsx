@@ -7,7 +7,7 @@ const BulkSmsBanner = () => {
                 <img
                     src={banner}
                     alt="Banner"
-                    className="w-full h-[160px] sm:h-[230px] md:h-[250px] lg:h-[423px] 2xl:h-[850px] object-cover shadow-xl"
+                    className="w-full h-[160px] sm:h-[230px] md:h-[250px] lg:h-[420px] 2xl:h-[450px] object-cover shadow-xl"
                     
                 />
             </div>
